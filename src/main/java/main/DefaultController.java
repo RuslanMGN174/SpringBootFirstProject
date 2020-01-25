@@ -8,9 +8,9 @@ import java.util.Date;
 @RestController
 public class DefaultController
 {
-    @RequestMapping("/")
+    @RequestMapping("/hello")
     public String index()
     {
-        return (new Date()).toString();
+        return "Hello, world!";
     }
 }
